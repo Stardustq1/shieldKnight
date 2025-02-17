@@ -1,0 +1,6 @@
+com.example.shieldknight.test.app-tracing-1.2.0-0 C:\Users\Eugene\.gradle\caches\transforms-4\849c5fc22931836c839d8bd1c3cf73a8\transformed\tracing-1.2.0\res
+com.example.shieldknight.test.app-core-1.6.1-1 C:\Users\Eugene\.gradle\caches\transforms-4\a4caa93879521895bbe0d9aede615971\transformed\core-1.6.1\res
+com.example.shieldknight.test.app-androidTest-2 C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\generated\res\resValues\androidTest\debug
+com.example.shieldknight.test.app-mergeDebugAndroidTestResources-3 C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.shieldknight.test.app-mergeDebugAndroidTestResources-4 C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.shieldknight.test.app-debugAndroidTest-5 C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
