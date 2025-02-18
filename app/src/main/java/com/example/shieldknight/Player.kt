@@ -26,6 +26,9 @@ class Player(context: Context, var x: Float, var y: Float) {
         private val attackAnimation = Animation(attackSheet, 14)
         private val jumpAnimation = Animation(jumpSheet, 14)
 
+        var isOnGround=true
+        public var velocityY = 0f // Скорость для прыжка
+        private val gravity = 2f // Гравитация
         private var currentAnimation=idleAnimation//Выбираем текущую анимацию
 
     private val paint = Paint()
@@ -87,6 +90,30 @@ class Player(context: Context, var x: Float, var y: Float) {
         }
     }
 
+    fun checkPlatformCollision(platforms: List<Platform>) {
+        isOnGround = false
+        if(y == 500f){
+            isOnGround=true
+        }
+        for (platform in platforms) {
+            if (x + 32 > platform.x && x < platform.x + platform.width &&
+                y + 32 >= platform.y && y + 32 - velocityY < platform.y) {
+                y = platform.y - 32
+                velocityY = 0f
+                isOnGround = true
+                break
+            }
+        }
+    }
+
+    fun checkfalling(){
+        if (!isOnGround) {  //падение персонажа
+            velocityY += gravity
+            move(0f, velocityY)
+        } else {
+            velocityY = 0f
+        }
+    }
     fun move(dx: Float, dy: Float) {//Движение персонажа
         if(x>0f && x<2200f) {
             x += dx

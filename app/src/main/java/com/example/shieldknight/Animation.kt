@@ -3,8 +3,8 @@ package com.example.shieldknight
 import android.graphics.Bitmap
 
 class Animation(private val spriteSheet: Bitmap, private val frameCount: Int) {
-    private val frameWidth = spriteSheet.width / frameCount
-    private val frameHeight = spriteSheet.height
+    val frameWidth = spriteSheet.width / frameCount
+    val frameHeight = spriteSheet.height
     private var currentFrame = 0
     private var frameTime = 0
     private val frameDelay = 5  // Скорость анимации

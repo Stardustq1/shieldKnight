@@ -6,11 +6,12 @@ import android.media.MediaPlayer
 import android.os.Bundle
 import android.view.View
 import android.widget.Button
+import android.widget.FrameLayout
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 
 class MenuActivity : AppCompatActivity() {
-    @SuppressLint("MissingInflatedId")
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         window.decorView.systemUiVisibility = View.SYSTEM_UI_FLAG_FULLSCREEN
@@ -22,6 +23,7 @@ class MenuActivity : AppCompatActivity() {
 
         var menu_sound = MediaPlayer.create(this, R.raw.menu_music)
         menu_sound.start()
+
 
         btnplay.setOnClickListener({
             startActivity(Intent(this, MainActivity::class.java))

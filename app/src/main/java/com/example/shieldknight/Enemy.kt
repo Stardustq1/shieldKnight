@@ -12,6 +12,7 @@ class Enemy(private val context: Context, var x: Float, var y: Float) {
     val frameWidth = spriteSheet.width / 8
     val frameHeight = spriteSheet.height
 
+
     private var currentFrame = 0
     private var isFacingRight = true
     private val speed = 2f // Скорость врага

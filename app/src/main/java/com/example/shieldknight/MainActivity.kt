@@ -6,6 +6,7 @@ import android.os.Looper
 import android.view.MotionEvent
 import android.view.View
 import android.widget.Button
+import android.widget.FrameLayout
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
@@ -18,11 +19,20 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var moveRight = false
         var moveLeft=false
+
+        //Кнопки управления
         val gameView = findViewById<GameView>(R.id.gameView)
         val btnLeft = findViewById<Button>(R.id.btnleft)
         val btnRight = findViewById<Button>(R.id.btnright)
         val btnJump = findViewById<Button>(R.id.btnjump)
         val btnshoot = findViewById<Button>(R.id.btnshoot)
+
+        //Кнопки меню паузы
+        var pauseMenu: FrameLayout =findViewById(R.id.pausemenu)
+        var pauseButton:Button=findViewById(R.id.btnpause)
+        var resumeButton:Button=findViewById(R.id.btnresume)
+        var restartButton:Button=findViewById(R.id.btnrestart)
+        var exitButton:Button=findViewById(R.id.btnexit)
 
         val movementRunnable = object : Runnable {
             override fun run() {
@@ -31,6 +41,23 @@ class MainActivity : AppCompatActivity() {
                 if (moveLeft || moveRight) handler.postDelayed(this, 50) // Повторяем только если кнопка зажата
             }
         }
+
+        pauseButton.setOnClickListener({
+            gameView.isPause=true
+            pauseMenu.visibility=View.VISIBLE
+        })
+        resumeButton.setOnClickListener({
+            gameView.isPause=false
+            pauseMenu.visibility=View.GONE
+        })
+        restartButton.setOnClickListener({
+            finish()
+            startActivity(intent)
+        })
+        exitButton.setOnClickListener({
+            finish()
+        })
+
 
         btnshoot.setOnTouchListener { _, event ->
             when (event.action) {
