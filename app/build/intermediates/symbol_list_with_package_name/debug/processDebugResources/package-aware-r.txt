@@ -1437,6 +1437,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3623,6 +3624,7 @@ id up
 id useLogo
 id vertical
 id vertical_only
+id videoBackground
 id videoView
 id view_offset_helper
 id view_transition
@@ -3839,8 +3841,11 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
+mipmap icon
 plurals mtrl_badge_content_description
+raw background_menu
 raw battle_theme
 raw death_sound
 raw intro

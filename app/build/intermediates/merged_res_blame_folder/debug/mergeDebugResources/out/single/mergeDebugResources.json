@@ -8,12 +8,16 @@
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xhdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\drawable_tile_rock.png.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\drawable\\tile_rock.png"
+    },
+    {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\drawable_run.png.flat",
@@ -24,16 +28,24 @@
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\raw\\jump_sound.mp3"
     },
     {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+    },
+    {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\xml_data_extraction_rules.xml.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\xml\\data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
-        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\drawable\\ic_launcher_foreground.xml"
-    },
-    {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-hdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\drawable\\ic_launcher_foreground.xml"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
@@ -64,6 +76,10 @@
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\drawable\\background.png"
     },
     {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-anydpi_icon.png.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-anydpi\\icon.png"
+    },
+    {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\layout_activity_menu.xml.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\layout\\activity_menu.xml"
     },
@@ -76,20 +92,16 @@
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-anydpi\\ic_launcher.xml"
-    },
-    {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\raw_battle_theme.mp3.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\raw\\battle_theme.mp3"
     },
     {
-        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.example.shieldknight.app-debug-32:/layout_activity_main.xml.flat",
-        "source": "com.example.shieldknight.app-main-34:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\drawable_enemy_idle.png.flat",
@@ -108,20 +120,24 @@
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\drawable\\hero.png"
     },
     {
-        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-anydpi\\ic_launcher_round.xml"
+        "merged": "com.example.shieldknight.app-debug-32:/raw_background_menu.mp4.flat",
+        "source": "com.example.shieldknight.app-main-34:/raw/background_menu.mp4"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-hdpi_ic_launcher.webp.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-hdpi\\ic_launcher.webp"
     },
     {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\layout_activity_settings.xml.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\layout\\activity_settings.xml"
+    },
+    {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\layout\\activity_settings.xml"
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\raw_intro_music.mp3.flat",
@@ -130,6 +146,10 @@
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\raw_death_sound.mp3.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\raw\\death_sound.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
     },
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-xhdpi_ic_launcher.webp.flat",
@@ -142,5 +162,13 @@
     {
         "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\raw_menu_music.mp3.flat",
         "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\raw\\menu_music.mp3"
+    },
+    {
+        "merged": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-debug-32:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "C:\\Users\\Eugene\\.gradle\\daemon\\8.7\\com.example.shieldknight.app-main-34:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.shieldknight.app-debug-32:/layout_activity_menu.xml.flat",
+        "source": "com.example.shieldknight.app-main-34:/layout/activity_menu.xml"
     }
 ]

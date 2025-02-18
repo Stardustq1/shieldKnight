@@ -59,9 +59,6 @@ class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
                 canvas.drawBitmap(it, 0f, 0f, null) // Рисуем фон, если он уже загружен
             }
             tileMap.draw(canvas)
-            for (platform in platforms) {
-                canvas.drawRect(platform.x, platform.y, platform.x + platform.width, platform.y + platform.height, paint)
-            }
             for (enemy in enemies) {
                 enemy.update(player.x)
                 enemy.draw(canvas)
