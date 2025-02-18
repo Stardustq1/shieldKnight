@@ -3219,9 +3219,13 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id btnexit
 id btnjump
 id btnleft
+id btnpause
 id btnplay
+id btnrestart
+id btnresume
 id btnright
 id btnshoot
 id buttonPanel
@@ -3479,6 +3483,7 @@ id parent_matrix
 id password_toggle
 id path
 id pathRelative
+id pausemenu
 id peekHeight
 id percent
 id pin
