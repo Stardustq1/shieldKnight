@@ -29,8 +29,13 @@ class MenuActivity : AppCompatActivity() {
         var btnplay=findViewById<Button>(R.id.btnplay)
         var btnsettings=findViewById<Button>(R.id.settings)
         var btnexit=findViewById<Button>(R.id.exit)
+        var btnrecords=findViewById<Button>(R.id.btnrecords)
 
-
+        btnrecords.setOnClickListener({
+            startActivity(Intent(this, RecordsActivity::class.java))
+            menu_sound.stop()
+            finish() // Закрываем SplashActivity
+        })
         btnplay.setOnClickListener({
             startActivity(Intent(this, MainActivity::class.java))
             menu_sound.stop()
@@ -42,6 +47,7 @@ class MenuActivity : AppCompatActivity() {
             finish() // Закрываем SplashActivity
         })
         btnexit.setOnClickListener({
+            menu_sound.stop()
             finish() // Закрываем SplashActivity
         })
     }

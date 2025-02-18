@@ -7,26 +7,30 @@
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="MAGIC RUSH"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ShieldKnight"
         tools:targetApi="31">
         <activity
-            android:name=".SettingsActivity"
+            android:name=".RecordsActivity"
             android:exported="false"
-            android:screenOrientation="landscape"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".MenuActivity"
+            android:configChanges="orientation|screenSize"
             android:exported="false"
-            android:screenOrientation="landscape"
-            android:configChanges="orientation|screenSize"/>
+            android:screenOrientation="landscape" />
         <activity
             android:name=".Splashscreen"
+            android:configChanges="orientation|screenSize"
             android:exported="true"
-            android:screenOrientation="landscape"
-            android:configChanges="orientation|screenSize">
+            android:screenOrientation="landscape">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -37,7 +41,7 @@
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
             android:exported="false"
-            android:screenOrientation="landscape"></activity>
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

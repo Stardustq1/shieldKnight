@@ -1,4 +1,5 @@
 package com.example.shieldknight
+import android.content.Intent
 import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var moveRight = false
         var moveLeft=false
-
+        val db=GameDatabase(this)
         //Кнопки управления
         val gameView = findViewById<GameView>(R.id.gameView)
         val btnLeft = findViewById<Button>(R.id.btnleft)
@@ -55,7 +56,9 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         })
         exitButton.setOnClickListener({
+            db.addScore("player",gameView.getplayerscore())
             finish()
+            startActivity(Intent(this, MenuActivity::class.java))
         })
 
 

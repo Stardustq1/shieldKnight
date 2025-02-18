@@ -6,11 +6,11 @@ import android.graphics.BitmapFactory
 import android.graphics.Canvas
 import android.graphics.Matrix
 import android.graphics.Paint
-import android.graphics.Rect
 
 class Player(context: Context, var x: Float, var y: Float) {
     private val idle: Bitmap = BitmapFactory.decodeResource(context.resources, R.drawable.hero)
         .let { Bitmap.createScaledBitmap(it, (it.width * 2f).toInt(), (it.height * 2f).toInt(), false) }
+
     //Создание переменных с битмап изображениями и увеличиваем размер в 2 раза
         private val idleSheet = BitmapFactory.decodeResource(context.resources, R.drawable.hero)
         .let { Bitmap.createScaledBitmap(it, (it.width * 2f).toInt(), (it.height * 2f).toInt(), false) }
@@ -20,6 +20,7 @@ class Player(context: Context, var x: Float, var y: Float) {
             .let { Bitmap.createScaledBitmap(it, (it.width * 2f).toInt(), (it.height * 2f).toInt(), false) }
         private val jumpSheet = BitmapFactory.decodeResource(context.resources, R.drawable.hero)
             .let { Bitmap.createScaledBitmap(it, (it.width * 2f).toInt(), (it.height * 2f).toInt(), false) }
+
     //Создание объектов класса анимация
         private val idleAnimation = Animation(idleSheet, 14)
         private val runAnimation = Animation(runSheet, 14)
@@ -31,11 +32,10 @@ class Player(context: Context, var x: Float, var y: Float) {
         private val gravity = 2f // Гравитация
         private var currentAnimation=idleAnimation//Выбираем текущую анимацию
 
-    private val paint = Paint()
-
     private val projectiles = mutableListOf<Projectile>()
     var isFacingRight=true
     var health=100;
+    var score=0
     var context=context
     var shootcooldown=0
     var shootreloadtime=40
@@ -83,25 +83,10 @@ class Player(context: Context, var x: Float, var y: Float) {
             for (j in enemies.indices.reversed()) {
                 if (projectiles[i].checkCollision(enemies[j])) {
                     projectiles.removeAt(i)
+                    score+=20
                     enemies.removeAt(j) // Удаляем врага, если попали в него
                     break
                 }
-            }
-        }
-    }
-
-    fun checkPlatformCollision(platforms: List<Platform>) {
-        isOnGround = false
-        if(y == 500f){
-            isOnGround=true
-        }
-        for (platform in platforms) {
-            if (x + 32 > platform.x && x < platform.x + platform.width &&
-                y + 32 >= platform.y && y + 32 - velocityY < platform.y) {
-                y = platform.y - 32
-                velocityY = 0f
-                isOnGround = true
-                break
             }
         }
     }
@@ -132,7 +117,6 @@ class Player(context: Context, var x: Float, var y: Float) {
             x=2199f
         }
     }
-
     fun takeDamage() {
         health-10
     }

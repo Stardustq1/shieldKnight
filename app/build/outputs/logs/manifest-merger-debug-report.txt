@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-43:12
-INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-43:12
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:1-47:12
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eugene\.gradle\caches\transforms-4\33785420562e904a1afc7c614709b8c7\transformed\material-1.12.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Eugene\.gradle\caches\transforms-4\aa12787990147c1b16def5fd8e919b77\transformed\constraintlayout-2.2.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] C:\Users\Eugene\.gradle\caches\transforms-4\a73a922cba92bb5bc513afaa86495f3a\transformed\appcompat-resources-1.7.0\AndroidManifest.xml:2:1-7:12
@@ -56,8 +56,8 @@ MERGED from [androidx.annotation:annotation-experimental:1.4.1] C:\Users\Eugene\
 	xmlns:android
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:5-41:19
-INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:5-41:19
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:5-45:19
+INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:5-45:19
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eugene\.gradle\caches\transforms-4\33785420562e904a1afc7c614709b8c7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.12.0] C:\Users\Eugene\.gradle\caches\transforms-4\33785420562e904a1afc7c614709b8c7\transformed\material-1.12.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.2.0] C:\Users\Eugene\.gradle\caches\transforms-4\aa12787990147c1b16def5fd8e919b77\transformed\constraintlayout-2.2.0\AndroidManifest.xml:7:5-20
@@ -81,7 +81,7 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Eu
 	android:supportsRtl
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:10:9-35
 	android:fullBackupContent
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:8:9-54
 	android:roundIcon
@@ -96,56 +96,64 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Eu
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:13:9-50
 	android:dataExtractionRules
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:7:9-65
-activity#com.example.shieldknight.SettingsActivity
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:15:9-19:61
+activity#com.example.shieldknight.RecordsActivity
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:15:9-18:52
 	android:screenOrientation
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:18:13-50
 	android:exported
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:17:13-37
-	android:configChanges
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:19:13-59
 	android:name
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:16:13-45
-activity#com.example.shieldknight.MenuActivity
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:20:9-24:61
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:16:13-44
+activity#com.example.shieldknight.SettingsActivity
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:19:9-23:53
 	android:screenOrientation
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:23:13-50
 	android:exported
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:22:13-37
 	android:configChanges
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:24:13-59
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:21:13-59
 	android:name
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:21:13-41
-activity#com.example.shieldknight.Splashscreen
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:25:9-35:20
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:20:13-45
+activity#com.example.shieldknight.MenuActivity
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:24:9-28:53
 	android:screenOrientation
 		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:28:13-50
 	android:exported
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:27:13-36
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:27:13-37
 	android:configChanges
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:29:13-59
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:26:13-59
 	android:name
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:26:13-41
-intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:30:13-34:29
-action#android.intent.action.MAIN
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:31:17-69
-	android:name
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:31:25-66
-category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:33:17-77
-	android:name
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:33:27-74
-activity#com.example.shieldknight.MainActivity
-ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:36:9-40:62
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:25:13-41
+activity#com.example.shieldknight.Splashscreen
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:29:9-39:20
 	android:screenOrientation
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:40:13-50
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:33:13-50
 	android:exported
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:39:13-37
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:32:13-36
 	android:configChanges
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:38:13-59
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:31:13-59
 	android:name
-		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:13-41
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:30:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:34:13-38:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:35:17-69
+	android:name
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:35:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:17-77
+	android:name
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:27-74
+activity#com.example.shieldknight.MainActivity
+ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:40:9-44:53
+	android:screenOrientation
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:44:13-50
+	android:exported
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:43:13-37
+	android:configChanges
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:42:13-59
+	android:name
+		ADDED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:41:13-41
 uses-sdk
 INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml

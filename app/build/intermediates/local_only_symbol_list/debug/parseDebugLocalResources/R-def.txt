@@ -19,6 +19,7 @@ id btnjump
 id btnleft
 id btnpause
 id btnplay
+id btnrecords
 id btnrestart
 id btnresume
 id btnright
@@ -30,11 +31,14 @@ id menu
 id pausemenu
 id settings
 id splashscreen
+id textHealth
 id textView2
+id textViewScore
 id videoBackground
 id videoView
 layout activity_main
 layout activity_menu
+layout activity_records
 layout activity_settings
 layout activity_splashscreen
 mipmap ic_launcher

@@ -10,14 +10,16 @@ import android.util.AttributeSet
 import android.util.Log
 
 import android.view.View
+import android.widget.TextView
+
 class Platform(val x: Float, val y: Float, val width: Float, val height: Float)
 class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     private val player = Player(context, 100f, 500f) // Начальная позиция игрока
-    private val paint = Paint()
-
     private var spawntimer=0
-    private var spawninterval=100
+    private var spawninterval=200
     private val enemies = mutableListOf<Enemy>()
+    public var texthealth=findViewById<TextView>(R.id.textHealth)
+    var db=GameDatabase(context)
     private var screenHeight=resources.displayMetrics.heightPixels
     public var isAttacking = false
     public var isMoving=false
@@ -25,10 +27,7 @@ class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     private var isJumping=false
     private val background:Bitmap=BitmapFactory.decodeResource(resources,R.drawable.background)
     private val tileSet = Tile(context)
-    private val platforms = listOf(
-        Platform(100f, 500f, 100f, 20f),
-        Platform(250f, 400f, 100f, 20f)
-    )
+
     private val tileMap = TileMap(tileSet, listOf(
         listOf( 0,0,0,0,0,0,0, 0,0,0,0,0,0,0, 0,0,0,0,0,0,0, 0,0,0,0,0,0,0 ,0,0,0,0,0,0,0),
         listOf( 1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1),
@@ -44,9 +43,6 @@ class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     }
     
     init {
-        paint.color = Color.RED  // Устанавливаем цвет
-        paint.style = Paint.Style.STROKE  // Рисуем только контур
-        paint.strokeWidth = 5f  // Толщина линии
         enemies.add(Enemy(context, 500f, 500f)) // Добавляем врага
         enemies.add(Enemy(context, 400f, 500f))
         enemies.add(Enemy(context, 200f, 500f))
@@ -63,8 +59,11 @@ class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
                 enemy.update(player.x)
                 enemy.draw(canvas)
             }
+            if(player.y==500f){
+                player.velocityY=0f
+                player.isOnGround=true
+            }
             spawnenemies()
-            player.checkPlatformCollision(platforms)
             player.checkfalling()
             player.checkProjectileCollisions(enemies)
             player.update(isMoving,isJumping,isAttacking) // Обновляем кадры анимации
@@ -81,6 +80,10 @@ class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
         }
     }
 
+    fun getplayerscore():Int{
+        return player.score
+    }
+
     fun movePlayer(dx: Float, dy: Float) {
         player.move(dx, dy)
         invalidate()
@@ -89,7 +92,6 @@ class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     fun jumpPlayer() {
         if (player.y >= 500f) {
             player.isOnGround=false
-            isJumping=true
             soundManager.playSound("jump")
             player.velocityY = -30f
             player.move(0f, player.velocityY)
