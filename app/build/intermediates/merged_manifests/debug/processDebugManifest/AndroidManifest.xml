@@ -25,7 +25,6 @@
         android:label="MAGIC RUSH"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme.ShieldKnight" >
         <activity
             android:name="com.example.shieldknight.RecordsActivity"

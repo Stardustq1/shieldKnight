@@ -3,24 +3,24 @@
 3    package="com.example.shieldknight.test" >
 4
 5    <uses-sdk
-5-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:5:5-74
+5-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:5:5-74
 6        android:minSdkVersion="29"
-6-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:5:15-41
+6-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:5:15-41
 7        android:targetSdkVersion="35" />
-7-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:5:42-71
+7-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:5:42-71
 8
 9    <instrumentation
-9-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:11:5-15:74
+9-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:11:5-15:74
 10        android:name="androidx.test.runner.AndroidJUnitRunner"
-10-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:11:22-76
+10-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:11:22-76
 11        android:functionalTest="false"
-11-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:14:22-52
+11-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:14:22-52
 12        android:handleProfiling="false"
-12-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:13:22-53
+12-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:13:22-53
 13        android:label="Tests for com.example.shieldknight"
-13-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:15:22-72
+13-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:15:22-72
 14        android:targetPackage="com.example.shieldknight" />
-14-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:12:22-70
+14-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:12:22-70
 15
 16    <uses-permission android:name="android.permission.REORDER_TASKS" />
 16-->[androidx.test:core:1.6.1] C:\Users\Eugene\.gradle\caches\transforms-4\a4caa93879521895bbe0d9aede615971\transformed\core-1.6.1\AndroidManifest.xml:24:5-72
@@ -40,12 +40,12 @@
 22    </queries>
 23
 24    <application
-24-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:7:5-9:19
+24-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:7:5-9:19
 25        android:debuggable="true"
 26        android:extractNativeLibs="false" >
 27        <uses-library android:name="android.test.runner" />
-27-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:8:9-60
-27-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest9765296792005711856.xml:8:23-57
+27-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:8:9-60
+27-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest15748350429543827426.xml:8:23-57
 28
 29        <activity
 29-->[androidx.test:core:1.6.1] C:\Users\Eugene\.gradle\caches\transforms-4\a4caa93879521895bbe0d9aede615971\transformed\core-1.6.1\AndroidManifest.xml:27:9-34:20

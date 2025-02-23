@@ -99,6 +99,7 @@ class Player(context: Context, var x: Float, var y: Float) {
             velocityY = 0f
         }
     }
+
     fun move(dx: Float, dy: Float) {//Движение персонажа
         if(x>0f && x<2200f) {
             x += dx
