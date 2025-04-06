@@ -3230,6 +3230,7 @@ id btnrestart
 id btnresume
 id btnright
 id btnshoot
+id button
 id buttonPanel
 id cache_measures
 id callMeasure

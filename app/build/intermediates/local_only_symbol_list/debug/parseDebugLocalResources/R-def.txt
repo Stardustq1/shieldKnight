@@ -24,6 +24,7 @@ id btnrestart
 id btnresume
 id btnright
 id btnshoot
+id button
 id exit
 id gameView
 id main

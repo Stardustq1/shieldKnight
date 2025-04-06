@@ -8,164 +8,172 @@
 8        android:minSdkVersion="29"
 9        android:targetSdkVersion="35" />
 10
-11    <permission
-11-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
-12        android:name="com.example.shieldknight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-12-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
-13        android:protectionLevel="signature" />
-13-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
-14
-15    <uses-permission android:name="com.example.shieldknight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-15-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
-15-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
-16
-17    <application
-17-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:5-45:19
-18        android:allowBackup="true"
-18-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:6:9-35
-19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-19-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
-20        android:dataExtractionRules="@xml/data_extraction_rules"
-20-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:7:9-65
-21        android:debuggable="true"
-22        android:extractNativeLibs="false"
-23        android:fullBackupContent="@xml/backup_rules"
-23-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:8:9-54
-24        android:icon="@mipmap/ic_launcher"
-24-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:9:9-43
-25        android:label="MAGIC RUSH"
-25-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:10:9-35
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:11:9-54
-27        android:supportsRtl="true"
-27-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:12:9-35
-28        android:theme="@style/Theme.ShieldKnight" >
-28-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:13:9-50
-29        <activity
-29-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:15:9-18:52
-30            android:name="com.example.shieldknight.RecordsActivity"
-30-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:16:13-44
-31            android:exported="false"
-31-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:17:13-37
-32            android:screenOrientation="landscape" />
-32-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:18:13-50
+11    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+11-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:4:5-80
+11-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+12-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:5-77
+12-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:5:22-74
+13
+14    <permission
+14-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.shieldknight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.shieldknight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:7:5-47:19
+21        android:allowBackup="true"
+21-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.15.0] C:\Users\Eugene\.gradle\caches\transforms-4\56c950b56030b36ef6e26fa07a355da4\transformed\core-1.15.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="MAGIC RUSH"
+28-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:12:9-35
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.ShieldKnight" >
+32-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:15:9-50
 33        <activity
-33-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:19:9-23:53
-34            android:name="com.example.shieldknight.SettingsActivity"
-34-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:20:13-45
-35            android:configChanges="orientation|screenSize"
-35-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:21:13-59
-36            android:exported="false"
-36-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:22:13-37
-37            android:screenOrientation="landscape" />
-37-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:23:13-50
-38        <activity
-38-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:24:9-28:53
-39            android:name="com.example.shieldknight.MenuActivity"
-39-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:25:13-41
-40            android:configChanges="orientation|screenSize"
-40-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:26:13-59
-41            android:exported="false"
-41-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:27:13-37
-42            android:screenOrientation="landscape" />
-42-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:28:13-50
-43        <activity
-43-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:29:9-39:20
-44            android:name="com.example.shieldknight.Splashscreen"
-44-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:30:13-41
-45            android:configChanges="orientation|screenSize"
-45-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:31:13-59
-46            android:exported="true"
-46-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:32:13-36
-47            android:screenOrientation="landscape" >
-47-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:33:13-50
-48            <intent-filter>
-48-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:34:13-38:29
-49                <action android:name="android.intent.action.MAIN" />
-49-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:35:17-69
-49-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:35:25-66
-50
-51                <category android:name="android.intent.category.LAUNCHER" />
-51-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:17-77
-51-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:27-74
-52            </intent-filter>
-53        </activity>
-54        <activity
-54-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:40:9-44:53
-55            android:name="com.example.shieldknight.MainActivity"
-55-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:41:13-41
-56            android:configChanges="orientation|screenSize"
-56-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:42:13-59
-57            android:exported="false"
-57-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:43:13-37
-58            android:screenOrientation="landscape" />
-58-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:44:13-50
-59
-60        <provider
-60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-61            android:name="androidx.startup.InitializationProvider"
-61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-62            android:authorities="com.example.shieldknight.androidx-startup"
-62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-63            android:exported="false" >
-63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-64            <meta-data
-64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-66                android:value="androidx.startup" />
-66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-67            <meta-data
-67-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eugene\.gradle\caches\transforms-4\f83fa5a5ddaf76d60aed8b4be0fe1034\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-68                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-68-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eugene\.gradle\caches\transforms-4\f83fa5a5ddaf76d60aed8b4be0fe1034\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-69                android:value="androidx.startup" />
-69-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eugene\.gradle\caches\transforms-4\f83fa5a5ddaf76d60aed8b4be0fe1034\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-70            <meta-data
-70-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-71-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-72                android:value="androidx.startup" />
-72-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-73        </provider>
-74
-75        <receiver
-75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-76            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-77            android:directBootAware="false"
-77-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-78            android:enabled="true"
-78-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-79            android:exported="true"
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-80            android:permission="android.permission.DUMP" >
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-81            <intent-filter>
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-82                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-83            </intent-filter>
-84            <intent-filter>
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-85                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-86            </intent-filter>
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-88                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-89            </intent-filter>
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-91                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-92            </intent-filter>
-93        </receiver>
-94    </application>
-95
-96</manifest>
+33-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:17:9-20:52
+34            android:name="com.example.shieldknight.RecordsActivity"
+34-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:18:13-44
+35            android:exported="false"
+35-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:19:13-37
+36            android:screenOrientation="landscape" />
+36-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:20:13-50
+37        <activity
+37-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:21:9-25:53
+38            android:name="com.example.shieldknight.SettingsActivity"
+38-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:22:13-45
+39            android:configChanges="orientation|screenSize"
+39-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:23:13-59
+40            android:exported="false"
+40-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:24:13-37
+41            android:screenOrientation="landscape" />
+41-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:25:13-50
+42        <activity
+42-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:26:9-30:53
+43            android:name="com.example.shieldknight.MenuActivity"
+43-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:27:13-41
+44            android:configChanges="orientation|screenSize"
+44-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:28:13-59
+45            android:exported="false"
+45-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:29:13-37
+46            android:screenOrientation="landscape" />
+46-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:30:13-50
+47        <activity
+47-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:31:9-41:20
+48            android:name="com.example.shieldknight.Splashscreen"
+48-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:32:13-41
+49            android:configChanges="orientation|screenSize"
+49-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:33:13-59
+50            android:exported="true"
+50-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:34:13-36
+51            android:screenOrientation="landscape" >
+51-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:35:13-50
+52            <intent-filter>
+52-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:36:13-40:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:17-69
+53-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:37:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:39:17-77
+55-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:39:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:42:9-46:53
+59            android:name="com.example.shieldknight.MainActivity"
+59-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:43:13-41
+60            android:configChanges="orientation|screenSize"
+60-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:44:13-59
+61            android:exported="false"
+61-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:45:13-37
+62            android:screenOrientation="landscape" />
+62-->C:\Users\Eugene\AndroidStudioProjects\ShieldKnight\app\src\main\AndroidManifest.xml:46:13-50
+63
+64        <provider
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+65            android:name="androidx.startup.InitializationProvider"
+65-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+66            android:authorities="com.example.shieldknight.androidx-startup"
+66-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+67            android:exported="false" >
+67-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+68            <meta-data
+68-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+70                android:value="androidx.startup" />
+70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Eugene\.gradle\caches\transforms-4\865a25c944950074ae788d532ec3b9a5\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+71            <meta-data
+71-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eugene\.gradle\caches\transforms-4\f83fa5a5ddaf76d60aed8b4be0fe1034\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+72                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+72-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eugene\.gradle\caches\transforms-4\f83fa5a5ddaf76d60aed8b4be0fe1034\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+73                android:value="androidx.startup" />
+73-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\Eugene\.gradle\caches\transforms-4\f83fa5a5ddaf76d60aed8b4be0fe1034\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+74            <meta-data
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+75                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+76                android:value="androidx.startup" />
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+77        </provider>
+78
+79        <receiver
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+81            android:directBootAware="false"
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+82            android:enabled="true"
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+83            android:exported="true"
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+84            android:permission="android.permission.DUMP" >
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+90            </intent-filter>
+91            <intent-filter>
+91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+92-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+93            </intent-filter>
+94            <intent-filter>
+94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+95-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\Eugene\.gradle\caches\transforms-4\af65dc9305ac42677374a190956833d3\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+96            </intent-filter>
+97        </receiver>
+98    </application>
+99
+100</manifest>

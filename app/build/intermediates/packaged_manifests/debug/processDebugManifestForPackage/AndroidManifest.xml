@@ -8,6 +8,9 @@
         android:minSdkVersion="29"
         android:targetSdkVersion="35" />
 
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
     <permission
         android:name="com.example.shieldknight.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
         android:protectionLevel="signature" />
@@ -25,6 +28,7 @@
         android:label="MAGIC RUSH"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.ShieldKnight" >
         <activity
             android:name="com.example.shieldknight.RecordsActivity"

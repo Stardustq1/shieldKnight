@@ -3229,6 +3229,7 @@ int id btnrestart 0x7f08006b
 int id btnresume 0x7f08006c
 int id btnright 0x7f08006d
 int id btnshoot 0x7f08006e
+int id button 0x7f08020f
 int id buttonPanel 0x7f08006f
 int id cache_measures 0x7f080070
 int id callMeasure 0x7f080071

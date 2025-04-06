@@ -11,8 +11,6 @@ import android.util.Log
 
 import android.view.View
 import android.widget.TextView
-
-class Platform(val x: Float, val y: Float, val width: Float, val height: Float)
 class GameView(context: Context, attrs: AttributeSet?) : View(context, attrs) {
     private val player = Player(context, 100f, 500f) // Начальная позиция игрока
     private var spawntimer=0
